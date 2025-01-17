@@ -1,0 +1,458 @@
+body {
+  /* background: #0a101e; */
+  overflow-x: hidden;
+  color: white;
+
+}
+
+
+header {
+  background: black;
+}
+
+
+/* navbar */
+
+#collapsibleNavbar {
+  position: relative;
+  left: 300px;
+
+}
+
+#navlink {
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+
+/* buttons */
+#hire {
+  background: goldenrod;
+  outline: none;
+  border: 0px;
+  border-radius: 30px;
+  height: 40px;
+  width: 120px;
+
+}
+
+#hire:hover {
+  box-shadow: 0px 0px 15px goldenrod;
+}
+
+#download {
+  background: goldenrod;
+  outline: none;
+  border: 0px;
+  border-radius: 30px;
+  height: 40px;
+  width: 130px;
+
+}
+
+#download:hover {
+  box-shadow: 0px 0px 15px goldenrod;
+}
+
+
+/* containers */
+
+#box1 {
+  background: #000;
+
+}
+
+#aboutme {
+  width: 500px;
+  height: 90px;
+  background-image: url(aboutme.png);
+  background-size: contain;
+
+}
+
+#boxservice {
+  width: 500px;
+  height: 90px;
+  background-image: url(service.png);
+  background-size: contain;
+
+}
+
+#boxmyskills {
+  width: 500px;
+  height: 90px;
+  background-image: url(myskills.png);
+  background-size: contain;
+
+}
+
+#resume {
+  width: 500px;
+  height: 90px;
+  background-image: url(resume.png);
+  background-size: cover;
+
+
+
+}
+
+
+
+li {
+  display: list-item;
+  text-align: match-parent;
+  position: relative;
+  right: 34px;
+  line-height: 30px;
+}
+
+
+
+/* cards */
+.card {
+  width: 360px;
+
+  background: color-mix(in srgb, white 4%, transparent 100%);
+  border: 1px solid dark;
+}
+
+
+/* icon */
+#icon1 {
+  font-size: 100px;
+  color: #0a101e;
+}
+
+#icon1:hover {
+  color: goldenrod;
+
+}
+
+
+
+
+
+/* potfolio */
+
+#dashboardtemp {
+  height: 200px;
+  width: 380px;
+  background-image: url(dashboard.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform 0.3s;
+
+}
+
+#dashboardtemp:hover {
+  transform: scale(1.2);
+}
+
+#over1 {
+  height: 166px;
+  width: 320px;
+  opacity: 0%;
+  background: color-mix(in srgb, gray 100%, transparent 60%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#over1:hover {
+  margin: 3px solid goldenrod;
+  border: 2px solid goldenrod;
+  opacity: 100%;
+  transform: scale(1.2);
+
+
+}
+
+
+#logintemp {
+  height: 200px;
+  width: 400px;
+  background-image: url(login\ .png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#logintemp:hover {
+  transform: scale(1.2);
+}
+
+#over2 {
+
+  height: 168px;
+  width: 335px;
+  opacity: 0%;
+  background: color-mix(in srgb, gray 100%, transparent 60%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#over2:hover {
+  margin: 3px solid goldenrod;
+  border: 2px solid goldenrod;
+  opacity: 100%;
+  transform: scale(1.2);
+
+
+}
+
+
+#websitetemp {
+  height: 200px;
+  width: 400px;
+  background-image: url(website.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#websitetemp:hover {
+  transform: scale(1.2);
+}
+
+
+#over3 {
+  height: 168px;
+  width: 335px;
+  opacity: 0%;
+  background: color-mix(in srgb, gray 100%, transparent 60%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#over3:hover {
+  margin: 3px solid goldenrod;
+  border: 2px solid goldenrod;
+  opacity: 100%;
+  transform: scale(1.2);
+
+
+}
+
+
+
+
+/* blog */
+#blog1 {
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#blog1:hover {
+  transform: scale(1.1);
+}
+
+
+#blog2 {
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#blog2:hover {
+  transform: scale(1.1);
+}
+
+#blog2 {
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#blog3:hover {
+  transform: scale(1.1);
+}
+
+
+
+/* contact */
+#send {
+  background: goldenrod;
+  outline: none;
+  border: 0px;
+  border-radius: 30px;
+  height: 40px;
+  width: 120px;
+
+}
+
+#send:hover {
+  box-shadow: 0px 0px 15px goldenrod;
+}
+
+
+#social1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 60%;
+  content: "dribbble";
+}
+
+#social1:hover {
+  justify-content: left;
+
+  color: goldenrod;
+  width: 150px;
+  border-radius: 30px;
+
+}
+
+#social2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 60%;
+}
+
+#social2:hover {
+  justify-content: left;
+  color: goldenrod;
+
+  width: 150px;
+  border-radius: 30px;
+
+}
+
+
+
+#social3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 60%;
+}
+
+#social3:hover {
+  justify-content: left;
+  color: goldenrod;
+
+  width: 150px;
+  border-radius: 30px;
+
+}
+.cover{
+  display: flex;
+}
+.button{
+  display: flex;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px white;
+}
+.button:hover{
+  width: 200px;
+  overflow: visible;
+}
+.button span{
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 26px;
+  
+}
+.icon1 i{
+  font-size: 60px;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background:gray;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.icon2 i{
+  font-size: 60px;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background:gray;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.icon3 i{
+  font-size: 60px;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background:gray;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.icon4 i{
+  font-size: 60px;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background:gray;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+
+.tarea{
+  display: inline-block;
+}
+.text1{
+  font-size: 2em;
+  letter-spacing: 5px;
+  font-family: monospace;
+  /* border-right: 5px solid; */
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(18);
+  /* cursor .4s step-end infinite alternate; */
+}
+.text2{
+  font-size: 2em;
+  letter-spacing: 5px;
+  font-family: monospace;
+  /* border-right: 5px solid; */
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-delay: 3s;
+  animation: typing 2s steps(18);
+  /* cursor .4s step-end infinite alternate */
+}
+.text3{
+  font-size: 2em;
+  letter-spacing: 5px;
+  font-family: monospace;
+  /* border-right: 5px solid; */
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-delay: 4s;
+  animation: typing 2s steps(18)
+  /* cursor .4s step-end infinite alternate; */
+}
+@keyframes cursor{
+  50%{ border-color: transparent; }
+}
+@keyframes typing{
+  from{ width: 0;}
+}
